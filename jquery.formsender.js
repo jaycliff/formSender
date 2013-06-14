@@ -29,18 +29,6 @@
 */
 
 (function ($) {
-    /*
-        (See http://docs.jquery.com/index.php?title=Core/fn.extend for more details on jQuery.fn.extend)
-        If you want to use the dollar-sign-styled jQuery call, pass jQuery as a parameter to this immediately-invoked function expression
-        Example:
-        (function ($) {
-            jQuery.fn.extend({
-                newjQueryMethod: function () {
-                    //Insert all plugin-specific code here
-                }
-            });
-        }(jQuery));
-    */
     "use strict";
     // $.fn === $.prototype
     $.fn.extend({
