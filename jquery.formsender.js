@@ -48,7 +48,7 @@
                     lastName = obj.find('input[name="last_name"]');
                     emailAddress = obj.find('input[name="email_address"]');
                     failsend = false;
-                    error_bg = '#faa';
+                    error_bg = '#ffaaaa';
                     function validateEmail(elementValue) {
                         var emailPattern = /^[a-zA-Z0-9._\-]+@[a-zA-Z0-9.\-]+[\.]{1}[a-zA-Z]{2,4}$/;
                         return emailPattern.test(elementValue);
